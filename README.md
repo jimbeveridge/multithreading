@@ -4,6 +4,12 @@ Original Date July, 1997
 
 https://github.com/jimbeveridge/multithreading
 
+## Repo Status
+
+As of May 4, 2020, I haven't yet created build files for all of the directories.
+The build.bat batch file is left over from 16-bit days and does not work.
+The `.sln` solution file was built for Visual Studio 2019.
+
 ## Addendum
 
 In the MFC chapter I discussed my desire to write sample code for
