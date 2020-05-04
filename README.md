@@ -4,6 +4,15 @@ Original Date July, 1997
 
 https://github.com/jimbeveridge/multithreading
 
+## Addendum
+
+In the MFC chapter I discussed my desire to write sample code for
+using MsgWaitForMultipleObjectsEx with MFC. In 2010 I finally did
+that research and determined that it wouldn't work. Here's my
+writeup:
+
+https://qualapps.blogspot.com/2010/05/using-msgwaitformultipleobjects-in-mfc.html
+
 ## Chapter Order Sample Listing
 
 This table lists sample programs according to what chapter
