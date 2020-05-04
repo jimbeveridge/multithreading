@@ -14,7 +14,7 @@
 #include <windows.h>
 #include <process.h>
 #include <string.h>
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 unsigned WINAPI ThreadFunc(void* p);
 

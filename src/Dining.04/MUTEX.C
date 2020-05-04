@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <time.h>
-#include "MtVerify.h"
+#include "../MtVerify.h"
 #include "dining.h"
 
 

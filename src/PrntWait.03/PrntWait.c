@@ -16,7 +16,7 @@
 #include <windowsx.h>
 #include <commdlg.h>
 #include "resource.h"
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 //
 // Macro definitions

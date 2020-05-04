@@ -17,11 +17,13 @@
  */
 
 #define WIN32_LEAN_AND_MEAN
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
 #include <time.h>       /* to init rand() */
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 /***********************************************
  * Constants
@@ -128,7 +130,7 @@ void MainLoop( void )
     DataBlock *data_block;
     DWORD thread_id;
 
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     for (;;)
     {
         Prompt(

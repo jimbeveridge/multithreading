@@ -22,7 +22,7 @@
 #include <windows.h>
 #include <process.h>    /* _beginthreadex, _endthreadex */
 #include <stddef.h>
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 DWORD WINAPI SearchProc( void *arg );
 

@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "resource.h"
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 //
 // Macro definitions

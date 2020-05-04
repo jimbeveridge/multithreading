@@ -11,6 +11,10 @@
  * then create a second thread and a
  * busy loop.
  *
+ * UPDATE 5/4/2020: In today's world of multicore CPUs,
+ * this doesn't work as expected. We'd need to create
+ * worker threads on ALL cores to see the expected result.
+ *
  * Build command: cl /MD busywait.c
  */
 
@@ -19,7 +23,7 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <time.h>
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 DWORD WINAPI ThreadFunc(LPVOID);
 

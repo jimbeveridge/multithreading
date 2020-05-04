@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
  
 DWORD WINAPI ThreadFunc(LPVOID);

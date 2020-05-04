@@ -21,7 +21,7 @@
  */
 
 #include <windows.h>
-#include "MtVerify.h"
+#include "../MtVerify.h"
 
 DWORD WINAPI SearchProc( void *arg );
 BOOL GetLine( HANDLE hFile, LPSTR buf, DWORD size );

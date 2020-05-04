@@ -33,8 +33,8 @@
 #include "BookSet.h"
 
 // Include the shared information between the Is2Odbc DLL and us
-#include "..\Request.h"
-#include "MtVerify.h"
+#include "../Request.h"
+#include "../MtVerify.h"
 
 CWinApp theApp;
 
